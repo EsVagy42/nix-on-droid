@@ -12,6 +12,31 @@
     vim
     libqalculate
     nushell
+
+    lldb
+    gcc
+    gdb
+    clang-tools
+    nixd
+    nixfmt-rfc-style
+    marksman
+    kdePackages.markdownpart
+    lua
+    lua-language-server
+    cppcheck
+    cargo
+    rustc
+    rustfmt
+    nixos-shell
+    python3
+
+    haskell.compiler.ghcHEAD
+    powershell
+
+    pandoc
+    texliveFull
+
+    yt-dlp
   ];
 
   # Backup etc files instead of failing to activate generation if a file already exists in /etc
