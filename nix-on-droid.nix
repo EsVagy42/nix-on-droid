@@ -22,8 +22,6 @@
 
   home-manager.config = ./home.nix;
 
-  user.shell = "${pkgs.nushell}/bin/nu";
-
   # Set up nix for flakes
   nix.extraOptions = ''
     experimental-features = nix-command flakes
