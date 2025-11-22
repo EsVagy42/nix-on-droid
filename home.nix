@@ -16,6 +16,8 @@
   # changes in each release.
   home.stateVersion = "24.05";
 
+  home.file.".config/nushell/config.nu".source = ./config.nu;
+
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 }
